@@ -1,5 +1,5 @@
 #labels Featured
-#font industry Homepage
+#font industry homepage.
 
 = Font Industry =
 

@@ -1,5 +1,5 @@
 #labels Featured
-#FontIndustry Homepage
+#font industry Homepage
 
 = Font Industry =
 
@@ -31,7 +31,7 @@ autotrace function.
 
 == Usage ==
 
-The executable name is `*fontin*`.
+The executable name is *`fontin`*.
 
   # Write your font glyphs in a grid sheet.
   # Scan in the sheet at 300dpi or higher resolution.

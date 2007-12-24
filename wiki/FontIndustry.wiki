@@ -1,0 +1,63 @@
+#labels Featured
+#FontIndustry Homepage
+
+= Font Industry =
+
+Copyright (c) Hashao 2007
+License: GNU GPL version 3 or later. Please see the included LICENSE file.
+
+Font Industry industrialize procedure of the big charset font production. It
+free the big charset font creation from artists' studio into the average John's
+basement. The font market will be flooded with huge amount of cheap, low
+quality, big charset, hand script font in no time. Be scared! Be very scared!
+
+What does Font Industry really do?
+The program converts a scanned in glyph grid sheet into a bitmap font with
+automatic encoding index. That's it.
+
+The bitmap font format used is the fontforge .sfd.
+
+A scalable font (TTF, OpenType) can then be generated using fontforge's
+autotrace function.
+
+== Dependency ==
+
+  * Python >=2.4 
+  * Pygtk
+  * Pygoocanvas: GooCanvas python binding. python-pygoocanvas in Debian.
+  * Python-gnome-extra. (For gconf python binding.)
+  * Python Imaging Library (call python-imaging in Debian).
+        http://www.pythonware.com/products/pil/
+
+== Usage ==
+
+The executable name is `*fontin*`.
+
+  # Write your font glyphs in a grid sheet.
+  # Scan in the sheet at 300dpi or higher resolution.
+  # Run the program 'fontin'.
+  # Open the scanned image with Font Industy (File-> Open Image)
+  # Drag the ruber bands to set the glyph cell size.
+  # Create the grid lines for the image. (Action->Create Grid)
+  # Repeat 5 to 6 until you are satisfied with the grid.
+  # Unset the click buttons in the cell to mark bad cells.
+  # Select a charset order from the Order combo box.
+  # Set a start character for the set of glyph (Action->Generate Characters)
+      You can type in a single character or type in a hex code of the character
+      e.g. 0xa1a1.
+  # Save the result into Font Industry's native font file. (File->Save)
+  # Load another glyph sheet and repeat 4 to 11 until all your glyph are created.
+  # Generate fontforge's .sfd font. (File->Export to FontForge)
+  # Open the result .sfd font in fontforge.
+  # Ask fontforge to autotrace your font to scalable font. (Element->Autotrace)
+  # Fine touch the font, set proper font informations.
+  # Export to OpenType, TrueType font. (File->Generate Font)
+  # ...
+  # Profit!
+
+Well, I am sorry that it takes your 19 steps to get to the profit part, but it
+is actually quite fast once you get to know the streamline.
+
+P.S. You can hint a end cell by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
+
+Enjoy your own hand writing font and FLOOD the font market. Don't let me down.

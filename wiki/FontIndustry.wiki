@@ -32,6 +32,9 @@ autotrace function.
   
   * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
 
+== Download ==
+http://code.google.com/p/fontindustry/w/list
+
 == Usage ==
 
 Note: The executable name is *fontin*.
@@ -64,3 +67,8 @@ is actually quite fast once you get to know the streamline.
 P.S. You can hint a end cell by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
 
 Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
+
+== ChangeLog ==
+
+2007-12-23:
+  * Release early, release often cut. Very little test. Please test it.

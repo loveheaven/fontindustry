@@ -1,10 +1,12 @@
 #summary Font Industry Homepage.
 #labels Featured
 
-= Font Industry =
+= Font Industry 字型工业 =
 
 Copyright (c) Hashao 2007
 License: GNU GPL version 3 or later. Please see the included LICENSE file.
+
+字型制造的工业化革命
 
 Font Industry industrialize procedure of the big charset font production. It
 free the big charset font creation from artists' studio into the average John's
@@ -32,7 +34,7 @@ autotrace function.
 
 == Usage ==
 
-The executable name is *`fontin`*.
+Note: The executable name is *fontin*.
 
   # Write your font glyphs in a grid sheet.
   # Scan in the sheet at 300dpi or higher resolution.

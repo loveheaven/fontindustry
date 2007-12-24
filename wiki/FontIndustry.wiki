@@ -26,8 +26,9 @@ autotrace function.
   * Pygtk
   * Pygoocanvas: GooCanvas python binding. python-pygoocanvas in Debian.
   * Python-gnome-extra. (For gconf python binding.)
-  * Python Imaging Library (call python-imaging in Debian).
-        http://www.pythonware.com/products/pil/
+  * Python Imaging Library (call python-imaging in Debian).        http://www.pythonware.com/products/pil/
+  
+  * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
 
 == Usage ==
 

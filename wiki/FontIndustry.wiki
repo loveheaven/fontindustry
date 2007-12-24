@@ -72,6 +72,9 @@ P.S. You can hint a end cell by focus on the cell and click the "Toggle End" but
 
 Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
 
+== Links ==
+  * [http://hashao.googlecode.com/ hashao's other little projects]
+
 == ChangeLog ==
 
 2007-12-23:

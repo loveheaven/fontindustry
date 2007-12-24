@@ -32,6 +32,10 @@ autotrace function.
   
   * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
 
+== Screenshots ==
+
+[http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png]
+
 == Download ==
 http://code.google.com/p/fontindustry/downloads/list
 

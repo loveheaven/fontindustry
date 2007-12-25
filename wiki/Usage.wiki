@@ -29,13 +29,13 @@ Note: The executable name is *fontin*.
 Well, I am sorry that it takes your 19 steps to get to the profit part, but it
 is actually quite fast once you get to know the streamline.
 
-P.S. You can hint a end cell by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
+P.S. You can hint an end cell by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
 
 Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
 
 == Charset Table ==
 When write your own font, you will need a grid sheet and a character set table of your character set.
   * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GBK1.txt GBK Version 1]
-  * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GB2312.txt GB2312 Simplified Hanzi only.]
+  * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GB2312.txt GB2312 for Simplified Hanzi only.] Hanzi start from 0xB0A1.
   * [http://www.unicode.org/versions/Unicode5.0.0/cjkcharts.html Unicode Hanzi 统一码汉字]
   * [http://www.unicode.org/charts/ Unicode char table for all languages]

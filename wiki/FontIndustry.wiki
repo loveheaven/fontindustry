@@ -34,43 +34,16 @@ autotrace function.
 
 == Screenshots ==
 
-[http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png]
+[ScreenShot Some screen shots here].
 
 == Download ==
 http://code.google.com/p/fontindustry/downloads/list
 
 == Usage ==
-
 Note: The executable name is *fontin*.
+程序名称为: *fontin*
 
-  # Write your font glyphs in a grid sheet.
-  # Scan in the sheet at 300dpi or higher resolution.
-  # Run the program 'fontin'.
-  # Open the scanned image with Font Industy (File-> Open Image)
-  # Drag the ruber bands to set the glyph cell size.
-  # Create the grid lines for the image. (Action->Create Grid)
-  # Repeat 5 to 6 until you are satisfied with the grid.
-  # Unset the click buttons in the cell to mark bad cells.
-  # Select a charset order from the Order combo box.
-  # Set a start character for the set of glyph (Action->Generate Characters)
-      You can type in a single character or type in a hex code of the character
-      e.g. 0xa1a1.
-  # Save the result into Font Industry's native font file. (File->Save)
-  # Load another glyph sheet and repeat 4 to 11 until all your glyph are created.
-  # Generate fontforge's .sfd font. (File->Export to FontForge)
-  # Open the result .sfd font in fontforge.
-  # Ask fontforge to autotrace your font to scalable font. (Element->Autotrace)
-  # Fine touch the font, set proper font informations.
-  # Export to OpenType, TrueType font. (File->Generate Font)
-  # ...
-  # Profit!
-
-Well, I am sorry that it takes your 19 steps to get to the profit part, but it
-is actually quite fast once you get to know the streamline.
-
-P.S. You can hint a end cell by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
-
-Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
+[Usage Link to the usage page].
 
 == Links ==
   * [http://hashao.googlecode.com/ hashao's other little projects]

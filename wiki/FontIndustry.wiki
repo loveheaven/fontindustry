@@ -34,7 +34,7 @@ autotrace function.
 
 == Screenshots ==
 
-[ScreenShot Some screen shots here].
+[ScreenShot Some screenshots here].
 
 == Download ==
 http://code.google.com/p/fontindustry/downloads/list

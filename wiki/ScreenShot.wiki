@@ -1,0 +1,7 @@
+#summary Screen Shots
+
+=== 用 xfd -fn hanzigb24st 随意生成的一页纸 ===
+
+[http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png]
+
+第一个字当然是念半边， dui4 怼。

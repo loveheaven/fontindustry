@@ -1,8 +1,12 @@
 #summary Usage Page
 
-== Steps ==
-Here is how to write your own font. Yes, write the font, not create one.
 
+Here are the procedures on how to write your own font. Yes, write the font, not create one.
+
+Basic procedures:
+  open image->create grid->generate character index->save font->export .sfd.
+
+== Steps ==
 Note: The executable name is *fontin*.
 
   # Write your font glyphs in a grid sheet. Use the code order for the charset of your choice.

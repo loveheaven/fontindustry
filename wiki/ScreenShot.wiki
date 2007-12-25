@@ -1,4 +1,5 @@
 #summary Screen Shots
+[FontIndustry <- Back to the main page]
 
 === 用 xfd -fn hanzigb24st 随意生成的一页纸 ===
 

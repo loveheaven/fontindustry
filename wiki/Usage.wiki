@@ -36,5 +36,6 @@ Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
 == Charset Table ==
 When write your own font, you will need a grid sheet and a character set table of your character set.
   * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GBK1.txt GBK Version 1]
+  * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GB2312.txt GB2312 Simplified Hanzi only.]
   * [http://www.unicode.org/versions/Unicode5.0.0/cjkcharts.html Unicode Hanzi 统一码汉字]
   * [http://www.unicode.org/charts/ Unicode char table for all languages]

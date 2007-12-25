@@ -7,7 +7,7 @@ Note: The executable name is *fontin*.
 
   # Write your font glyphs in a grid sheet. Use the code order for the charset of your choice.
   # Scan in the sheet at 300dpi or higher resolution.
-  # Run the program 'fontin'.
+  # Start the Font Industry (the command is 'fontin').
   # Open the scanned image with Font Industy (File-> Open Image)
   # Drag the ruber bands to set the glyph cell size.
   # Create the grid lines for the image. (Action->Create Grid)

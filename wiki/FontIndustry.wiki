@@ -1,6 +1,8 @@
 #summary Font Industry Homepage.
 #labels Featured
 
+万事开头难，所以就先开了这么个头
+
 = Font Industry 字型工业 =
 
 Copyright (c) Hashao 2007

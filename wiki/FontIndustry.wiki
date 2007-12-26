@@ -48,7 +48,7 @@ Note: The executable name is *fontin*.
 [Usage Link to the usage page].
 
 == Links ==
-  * [http://hashao.googlecode.com/ hashao's other little projects]
+  * [http://hashao.googlecode.com/ hashao's other projects]
 
 == ChangeLog ==
 

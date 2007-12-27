@@ -42,8 +42,11 @@ autotrace function.
 http://code.google.com/p/fontindustry/downloads/list
 
 == Usage ==
-Note: The executable name is *fontin*.
-程序名称为: *fontin*
+Note:
+
+  The command name is *fontin*.
+
+  程序名称为: *fontin*
 
 [Usage Link to the usage page].
 

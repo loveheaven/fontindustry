@@ -54,6 +54,12 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == ChangeLog ==
+2007-12-31:
+  * Version 0.0.3
+  * Fix a bug which keep font from being saved to disk. shelve cache thing.
+  * Add a dialog to view and edit current font content.
+  * More document on code.                                 
+
 2007-12-27:
   * Version 0.0.2
   * Fix a bug which prevent font from being saved in some situation (When the first glyph is not set to a character).

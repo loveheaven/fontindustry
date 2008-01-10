@@ -16,8 +16,8 @@ basement. The font market will be flooded with huge amount of cheap, low
 quality, big charset, hand script font in no time. Be scared! Be very scared!
 
 What does Font Industry really do?
-The program converts a scanned in glyph grid sheet into a bitmap font with
-automatic encoding index. That's it.
+
+The program converts a scanned in grid sheet containing a lot of glyphs into a bitmap font. The glyphs will be automatically indexed with unicode. That's it.
 
 The bitmap font format used is the fontforge .sfd.
 
@@ -54,6 +54,11 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == ChangeLog ==
+2008-01-10:
+  * Version 0.0.4
+  * Fix some bugs here and there.
+  * Character point can be changed in Font View Dialog.
+
 2007-12-31:
   * Version 0.0.3
   * Fix a bug which keep font from being saved to disk. shelve cache thing.

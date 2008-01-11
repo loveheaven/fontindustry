@@ -10,7 +10,7 @@ There really should be no black grid lines in the image. Put the grid sheet unde
 第一个字当然是念半边， dui4 怼。
 
 
-[http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png]
+[http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot02.png]
 
 === View Font Dialog ===
 

@@ -50,6 +50,10 @@ Note:
 
 [Usage Link to the usage page].
 
+== Mailing List ==
+||Developer: || http://groups.google.com/group/fontindustry-dev ||
+||User: || http://groups.google.com/group/fontindustry-user ||
+
 == Links ==
   * [http://hashao.googlecode.com/ hashao's other projects]
 

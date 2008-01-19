@@ -58,6 +58,14 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == ChangeLog ==
+2008-01-19:
+  * Version 0.0.5.
+  * When export to .sfd font, set some sane tags for the font.
+  * Change ascend/descent to 880/120 and add LineGap to 200.
+  * Add 4 standard glyphs to the begining of a font.
+  * Add a image list pan for mass importing glyph sheet.
+  * Minor bug fixes.
+
 2008-01-10:
   * Version 0.0.4
   * Fix some bugs here and there.

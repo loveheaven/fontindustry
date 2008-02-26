@@ -8,14 +8,15 @@ Basic procedures:
 
 == Steps ==
 Note: The executable name is *fontin*.
-
-  # Write your font glyphs in a grid sheet. Use the code order for the charset of your choice. (Download grid templates [http://fontindustry.googlecode.com/files/gridTemplates-1.0.zip here])
+  # Print out a page of grid template as your guide while writing glyphs. (Download grid templates [http://fontindustry.googlecode.com/files/gridTemplates-1.0.zip here])
+  # Write your font glyphs in page with the grid template as the background. Use the code order for the charset of your choice.
+     Tip: Use a clip to stick the foreground and background papers together.
   # Scan in the sheet at 300dpi or higher resolution.
   # Start the Font Industry (the command is 'fontin').
   # Open the scanned image with Font Industy (File->*Open Image*)
   # Drag the ruber bands to set the glyph cell size.
   # Create the grid lines for the image. (Action->*Create Grid*)
-  # Repeat 5 to 6 until you are satisfied with the grid.
+  # Repeat 6 to 7 until you are satisfied with the grid.
   # Unset the click buttons in the cell to mark bad cells.
   # Select a charset order from the Order combo box.
   # Set a start character for the set of glyph (Action->*Generate Characters*)
@@ -30,8 +31,7 @@ Note: The executable name is *fontin*.
   # ...
   # Profit!
 
-Well, I am sorry that it takes your 19 steps to get to the profit part, but it
-is actually quite fast once you get to know the streamline.
+Well, I am sorry that it takes your 20 steps to get to the profit part, but it is actually quite fast once you get to know the streamline.
 
 P.S. You can hint an _end cell_ by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
 

@@ -57,7 +57,10 @@ Note:
 == Links ==
   * [http://hashao.googlecode.com/ hashao's other projects]
 
-== ChangeLog ==
+== News ==
+2008-02-26:
+  * Add some grid templates in PDF format. User can print the templates out as guide while writing glyphs.
+
 2008-01-19:
   * Version 0.0.5.
   * When export to .sfd font, set some sane tags for the font.

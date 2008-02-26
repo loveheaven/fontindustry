@@ -9,7 +9,7 @@ Basic procedures:
 == Steps ==
 Note: The executable name is *fontin*.
 
-  # Write your font glyphs in a grid sheet. Use the code order for the charset of your choice.
+  # Write your font glyphs in a grid sheet. Use the code order for the charset of your choice. (Download grid templates [http://fontindustry.googlecode.com/files/gridTemplates-1.0.zip here])
   # Scan in the sheet at 300dpi or higher resolution.
   # Start the Font Industry (the command is 'fontin').
   # Open the scanned image with Font Industy (File->*Open Image*)

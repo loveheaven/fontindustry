@@ -70,6 +70,7 @@ Note:
 
 2008-02-29:
   * Add 96, 48 cell grid papers to the template package. The GB2312 charset has a structure of 94 glyphs per region. GBK has a structure of 2*96=192 glyphs per region. 48*2=96 cells.
+  * Upload gridpaper-0.1.tar.bz2, the tool which was used to generate the grid template.
 
 2008-02-26:
   * Add some grid templates in PDF format. User can print the templates out and use the templates as guide while writing glyphs.

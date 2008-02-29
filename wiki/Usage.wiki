@@ -8,7 +8,7 @@ Basic procedures:
 
 == Steps ==
 Note: The executable name is *fontin*.
-  # Print out a page of grid template. It will be used as a guide while writing glyphs. (Download grid templates from [http://fontindustry.googlecode.com/files/gridTemplates-1.0.zip here])
+  # Print out a page of grid template. It will be used as a guide while writing glyphs. (Download grid templates from [http://fontindustry.googlecode.com/files/gridTemplates-1.1.tar.bz2 here])
   # Write your font glyphs on a piece of paper. Use the grid template created above as the background. Write the glyphs in the code order for the charset of your choice.
      Tip: Use a clip to stick the foreground and background papers together.
   # Scan in the sheet at 300dpi or higher resolution.

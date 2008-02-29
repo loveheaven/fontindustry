@@ -56,6 +56,10 @@ Note:
 ||Developer: || http://groups.google.com/group/fontindustry-dev/topics ||
 ||User: || http://groups.google.com/group/fontindustry-user/topics ||
 
+== Tools ==
+ === Grid Paper ===
+   A simple tool to generate grid sheet template in .svg format. Get it in the [http://code.google.com/p/fontindustry/downloads/list download page].
+
 == Links ==
   * [http://hashao.googlecode.com/ hashao's other projects]
 

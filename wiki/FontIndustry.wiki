@@ -24,6 +24,8 @@ The bitmap font format used is the fontforge .sfd.
 A scalable font (TTF, OpenType) can then be generated using fontforge's
 autotrace function.
 
+A separated *grid sheet template package* is provided.
+
 == Dependency ==
 
   * Python >=2.4 
@@ -58,6 +60,13 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == News ==
+
+
+
+
+2008-02-29:
+  * Add a 96 cell grid paper to the template package. GB2312 has a structure of 94 glyphs per region.
+
 2008-02-26:
   * Add some grid templates in PDF format. User can print the templates out and use the templates as guide while writing glyphs.
 

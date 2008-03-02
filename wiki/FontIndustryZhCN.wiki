@@ -43,6 +43,10 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 || Developer: ||	http://groups.google.com/group/fontindustry-dev/topics ||
 || 用户: ||http://groups.google.com/group/fontindustry-user/topics ||
 
+== 辅助工具 ==
+ === 格子纸生成器 ===
+   GridPaper 是一个简单的格子纸模板生成器。可以用来制造 .svg 格式的格子模板。可以从  
+[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
 
 == 其他连接 ==
   * [http://hashao.googlecode.com/ hashao's other projects]

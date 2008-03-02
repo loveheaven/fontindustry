@@ -1,5 +1,6 @@
 #summary Font Industry Homepage.
 #labels Featured
+|| English || [FontIndustryZhCN 中文] ||
 
 万事开头难，所以就先开了这么个头
 

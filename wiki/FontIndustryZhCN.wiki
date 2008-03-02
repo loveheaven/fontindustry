@@ -36,6 +36,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 
 == 使用说明 ==
 [UsageZhCN]
+
 程序名称为: *fontin*
 
 == 邮件列表 ==

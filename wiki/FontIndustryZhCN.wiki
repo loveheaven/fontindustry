@@ -1,0 +1,51 @@
+#summary 字型工业主页
+
+||[FontIdustry English] || 中文 ||
+
+万事开头难，所以就先开了这么个头
+字型工业 Font Industry
+
+Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the included LICENSE file.
+
+= 字型制造的工业化革命 =
+
+字型工业的目的，是帮助那些觉得自己字写的不错的业余爱好者，写出自己的个性字体。
+
+当然狗爬体也是各有不同的爬法，做出来的字体应该也是别具特色，可以做为美术作品的渲染。具体审美观的辩论，不是字型工业所关心的事。这个时代，强调的是感觉，来电就行。
+
+== 工具 ==
+ * 扫描仪
+ * 笔 (铅笔，毛笔，钢笔，圆珠笔，蜡笔，记号笔...)
+
+== 软件 ==
+ * Python
+ * Pygtk
+ * Pygoocanvas (python-pygoocanvas)
+ * Python-gnome-extra
+ * Python Image Library (python-imaging)
+ * Fontforge
+ * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace]
+
+== 演示画面 ==
+[ScreenShot 程序运行画面]。
+
+== 下载 ==
+[http://code.google.com/p/fontindustry/downloads/list]
+
+== 使用说明 ==
+[UsageZhCN]
+程序名称为: *fontin*
+
+== 邮件列表 ==
+
+|| Developer: ||	http://groups.google.com/group/fontindustry-dev/topics ||
+|| 用户: ||http://groups.google.com/group/fontindustry-user/topics ||
+
+
+== 其他连接 ==
+  * [http://hashao.googlecode.com/ hashao's other projects]
+== 更新 ==
+
+2008-03-02:
+  * 发布 0.0.6 版。
+  * 查看字体窗口采用当前字符集顺序排序。

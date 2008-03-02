@@ -3,6 +3,7 @@
 ||[FontIndustry English] || 中文 ||
 
 万事开头难，所以就先开了这么个头
+
 字型工业 Font Industry
 
 Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the included LICENSE file.
@@ -16,6 +17,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 == 工具 ==
  * 扫描仪
  * 笔 (铅笔，毛笔，钢笔，圆珠笔，蜡笔，记号笔...)
+ * 白纸
 
 == 软件 ==
  * Python

@@ -11,9 +11,9 @@
 
 基本步骤就是：
 
-  打印一张格子纸，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 来写，也可以直接根据统一码 Unicode 来写。
+  打印一张*格子纸*，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 来写，也可以直接根据统一码 Unicode 来写。
 
-格子纸，可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
+  格子纸可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
 
 然后：
   扫描写好的字 (300dpi) -> 用字型工业打开扫描好的图像 -> 在图像上打格子 -> 对格子进行编码 -> 储存生成的字体 -> 输出 .sfd 格式字体。

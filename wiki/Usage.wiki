@@ -12,7 +12,7 @@ Note: The executable name is *fontin*.
     Hint: For charset GB2312/GBK, a 96 cell glyph sheet make it easier to track code point. A 48 cell glyph sheet can be used for big calligraphy.
   # Write your font glyphs on a piece of paper. Use the grid template created above as the background. Write the glyphs in the code order for the charset of your choice.
     Tip: Use a clip to stick the foreground and background papers together.
-  # Scan in the sheet at 300dpi or higher resolution.
+  # Scan in the sheet at 300dpi or higher resolution. Save images in the .png format.
   # Start the Font Industry (the command is 'fontin').
   # Open the scanned image with Font Industy (File->*Open Image*)
   # Drag the ruber bands to set the glyph cell size.
@@ -23,9 +23,9 @@ Note: The executable name is *fontin*.
   # Set a start character for the set of glyph (Action->*Generate Characters*)
       You can type in a single character or type in a hex code of the character e.g. 0xa1a1.
   # Save the result into Font Industry's native font file. (File->*Save*)
-  # Load another glyph sheet and repeat 4 to 11 until all your glyph are created.
+  # Load another glyph sheet and repeat above steps until all your glyph sheet are processed.
   # Generate fontforge's .sfd font. (File->*Export to FontForge*)
-  # Open the result .sfd font in fontforge.
+  # Open the resulting .sfd font in fontforge.
   # Ask *fontforge* to autotrace your font to scalable font. (Element->*Autotrace*)
   # Fine touch the font, set proper font informations.
   # Export to OpenType, TrueType font. (File->*Generate Font*)

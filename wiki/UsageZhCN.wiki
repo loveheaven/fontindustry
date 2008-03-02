@@ -18,7 +18,7 @@
 然后：
   扫描写好的字 (300dpi) -> 用字型工业打开扫描好的图像 -> 在图像上打格子 -> 对格子进行编码 -> 储存生成的字体 -> 输出 .sfd 格式字体。
 
-.sfd 格式的字体是用来最终生成我们应用程序可以使用的 TTF 格式的字体的，需要用 [http://fontforge.sourceforge.net/ fontforge]这个程序打开 .sfd 文件，然后生成 TTF 字体就可以了。
+.sfd 格式的字体是用来最终生成我们应用程序可以使用的 TTF 格式的字体的，需要用 [http://fontforge.sourceforge.net/ fontforge] 这个程序打开 .sfd 文件，然后生成 TTF 字体就可以了。
 
 == 具体步骤 ==
 

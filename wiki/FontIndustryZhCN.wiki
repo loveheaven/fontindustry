@@ -1,4 +1,5 @@
 #summary 字型工业主页
+#labels Featured
 
 ||[FontIndustry English] || 中文 ||
 

@@ -7,13 +7,58 @@
 
 这里我们说“写”一个字体，而不说制作一个字体，因为使用字型工业，制作一个字体，也就是写几千字而已，没什么难度。
 
+首先，本程序的命令行是 `fontin` 。
+
 基本步骤就是：
 
-  打印一张格字纸，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 来写，也可以直接根据统一码 Unicode 来写。
+  打印一张格子纸，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 来写，也可以直接根据统一码 Unicode 来写。
 
-格字纸，可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
+格子纸，可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
 
 然后：
   扫描写好的字 (300dpi) -> 用字型工业打开扫描好的图像 -> 在图像上打格子 -> 对格子进行编码 -> 储存生成的字体 -> 输出 .sfd 格式字体。
 
 .sfd 格式的字体是用来最终生成我们应用程序可以使用的 TTF 格式的字体的，需要用 [http://fontforge.sourceforge.net/ fontforge]这个程序打开 .sfd 文件，然后生成 TTF 字体就可以了。
+
+== 具体步骤 ==
+
+ # 打印一张格子纸，做为写字用的衬纸。可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
+    提示： 在写 GB2312 或者 GBK 这两个字符集的字体时，可以考虑使用 96 个格子一张的衬纸，因为 GB2312 是 94 个字算一区，GBK 是 2x96=192 个字一区，这样按照一张纸一个区，两张纸一个区来写，便于跟踪进度。当然这也不是绝对的，对于老写错别字还不喜欢用涂改液的人来说，用多少格子一张纸都差不多。写大字可以用 48 个格一张的纸，两张一个区。
+ # 在白纸上写字，以格子纸衬底。根据选定的字符集的次序写。最好用别针把两张纸别到一起，免得瞎晃。
+ # 写够了，把写好的字用扫描器扫进去。用 300dpi 或者以上的解析度。黑白就可以。用 .png 格式存起来就可以了。
+ # 打开`字型工业`。命令： `fontin`
+ # 打开扫描好的字体图像。 (File -> *Open Image*)
+ # 用程序提供的橡皮筋，框出一个字的格子。
+ # 在图像上打格子。 (Action -> *Create Grid*)
+ # 重复以上两步，直到满意格子的大小，位置为止。
+ # 把错字，别字，不要的字上的对勾取消。
+ # 选择一个字符集做为编码次序 (Order)。 GB2312, GBK 选 GB18030 就可以了。
+ # 对第一个字，指定一个起始编码 (Char)。
+     可以直接输入汉字或者它的十六进制编码 (0xA1A2 ...)。
+ # 保存到字型工业自己的字体格式。 (File -> *Save*)
+     后缀是 .fontin
+ # 重复以上步骤，处理下一张扫描好的字体，直到全部处理完毕。
+ # 生成 fontforge 的 .sfd 格式文件。 (File -> *Export To FontForge*)
+ # 用 fontforge 打开生成的 .sfd 文件。
+ # 利用 fontforge 的自动描线功能，绘出字体的曲线。 (Element->*Autotrace*)
+ # 微调字体，设定其他的选项，说明，版权，联系地址。
+ # 生成 TTF, OpenType 等各种格式的字体文件。 (File -> *Generate Font*)
+ # ...
+ # 发达！
+
+虽然未必就真能发达，不过多写几种字体，四处传播，成名是有可能的。名成自然利就，发达也未必只是梦。
+
+要走20步才能显出个性，看起来复杂，其实就是用鼠标这儿点一下，那儿点一下，再打一个字而已。上手后，飞快。
+
+其他功能，留待使用者自己发掘。
+
+祝你大肆张扬自己的个性，把自己的快乐，建筑在恶心别人之上。毕加索就是这么干的，他、他、他就成名了！
+
+== 字符集编码表 ==
+写字时，可能需要参考到的编码表：
+
+  * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GBK1.txt GBK 第一版]。或者投奔[http://www.microsoft.com/globaldev/reference/dbcs/936.mspx 黑暗世界]。
+  * [http://fontindustry.googlecode.com/svn/wiki/charcharts/GB2312.txt GB2312 简体字]。 汉字部分从 0xB0A1 开始。
+  
+  * [http://www.unicode.org/versions/Unicode5.0.0/cjkcharts.html Unicode Hanzi 统一码汉字]。
+  * [http://www.unicode.org/charts/ 统一码其他语言的编码表]。

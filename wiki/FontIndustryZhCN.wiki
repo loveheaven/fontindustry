@@ -35,7 +35,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 [http://code.google.com/p/fontindustry/downloads/list]
 
 == 使用说明 ==
-[UsageZhCN]
+[UsageZhCN 使用手册]
 
 程序名称为: *fontin*
 

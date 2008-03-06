@@ -54,8 +54,8 @@ Note:
 [Usage Link to the usage page].
 
 == Mailing List ==
-||Developer: || http://groups.google.com/group/fontindustry-dev/topics ||
 ||User: || http://groups.google.com/group/fontindustry-user/topics ||
+||Developer: || http://groups.google.com/group/fontindustry-dev/topics ||
 
 == Tools ==
  === Grid Paper ===
@@ -65,6 +65,11 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == News ==
+2008-03-05:
+  * Release 0.0.7
+  * Major bug fix: Save current glyph order while saving new font.
+  * Add GB2312 as a glyph order option.
+
 2008-03-02:
   * Release 0.0.6
   * Sort the current glyphs by font charset in the font view dialog.

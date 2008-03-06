@@ -9,6 +9,7 @@
 
 基本步骤就是：
 
+先写字：
   打印或手绘一张*格子纸*，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 的次序来书写，也可以直接根据统一码 (Unicode) 的次序来书写。
 
   [http://code.google.com/p/fontindustry/downloads/list 下载网页]提供几种格子纸模板的 PDF 文件可供参考。

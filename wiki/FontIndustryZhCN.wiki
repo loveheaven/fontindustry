@@ -1,6 +1,8 @@
 #summary 字型工业主页
 #labels Featured
 
+=== 曾经有一个扬名立万的机会摆在我面前…… ===
+
 ||[FontIndustry English] || 中文 ||
 
 万事开头难，所以就先开了这么个头
@@ -10,8 +12,6 @@
 Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the included LICENSE file.
 
 = 字型制造的工业化革命 =
-
-=== 曾经有一个扬名立万的机会摆在我面前…… ===
 
 字型工业的目的，是帮助那些觉得自己字写的不错的业余爱好者，写出自己的个性字体。
 

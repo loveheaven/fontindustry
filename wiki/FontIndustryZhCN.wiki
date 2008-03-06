@@ -32,7 +32,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
  * Pygoocanvas (python-pygoocanvas)
  * Python-gnome-extra
  * Python Image Library (python-imaging)
- * Fontforge
+ * [http://fontforge.sourceforge.net/ Fontforge]
  * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace]
 
 == 演示画面 ==

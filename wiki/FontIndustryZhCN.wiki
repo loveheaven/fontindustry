@@ -44,8 +44,8 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 
 == 邮件列表 ==
 
-|| Developer: ||	http://groups.google.com/group/fontindustry-dev/topics ||
-|| 用户: ||http://groups.google.com/group/fontindustry-user/topics ||
+|| 使用: || http://groups.google.com/group/fontindustry-user/topics ||
+|| 开发: || http://groups.google.com/group/fontindustry-dev/topics ||
 
 == 辅助工具 ==
 === 格子纸生成器 ===

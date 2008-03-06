@@ -55,6 +55,11 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
   * [http://hashao.googlecode.com/ hashao's other projects]
 == 更新 ==
 
+2008-03-05:
+  * 发布 0.0.7 版。
+  * 重大修正：保存新字体时，同时保存当前排序字符集
+  * 增添 GB2312 排序选择。
+
 2008-03-02:
   * 发布 0.0.6 版。
   * 查看字体窗口采用当前字符集顺序排序。

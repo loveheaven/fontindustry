@@ -42,6 +42,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
  # 利用 fontforge 的自动描线功能，绘出字体的矢量曲线。 (Element->*Autotrace*)
  # 微调字体，设定其他的选项，说明，版权，联系地址。
      可以参考 [http://www.6763.net/MAKEFONT/hiQ/q1.htm 做字网]之类的网上关于字体设计的文章。
+     Fontforge 提供去除重叠曲线，修正曲线方向，简化矢量曲线，等自动处理功能。
  # 生成 TTF, OpenType 等各种格式的矢量字体文件。 (File -> *Generate Font*)
  # ...
  # 发达！

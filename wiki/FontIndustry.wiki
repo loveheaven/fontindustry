@@ -4,12 +4,12 @@
 
 万事开头难，所以就先开了这么个头
 
-= Font Industry 字型工业 =
+= Font Industry 字体工业 =
 
 Copyright (c) Hashao 2007
 License: GNU GPL version 3 or later. Please see the included LICENSE file.
 
-字型制造的工业化革命
+字体制造的工业化革命
 
 Font Industry industrialize procedure of the big charset font production. It
 free the big charset font creation from artists' studio into the average John's

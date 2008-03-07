@@ -7,7 +7,7 @@
 
 万事开头难，所以就先开了这么个头
 
-字体工业 Font Industry
+= 字体工业 Font Industry =
 
 Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the included LICENSE file.
 

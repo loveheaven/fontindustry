@@ -58,6 +58,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 == 其他连接 ==
   * [http://hashao.googlecode.com/ hashao's other projects]
   * [http://snl.blueidea.com/cmd.shtml?do=blogs&id=114&uid=121 snl的纯水坊(字体设计)]
+  * [http://www.4a98.com/design/font/ 4A酒吧字体设计文章收藏]
   * [http://ecourse.gdqy.edu.cn/jp_guojiaji/2006/ztsj/index2.htm 广东轻工职业技术学院-字体设计课程]
 
 == 更新 ==

@@ -57,6 +57,8 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 
 == 其他连接 ==
   * [http://hashao.googlecode.com/ hashao's other projects]
+  * [http://ecourse.gdqy.edu.cn/jp_guojiaji/2006/ztsj/zxkc1-kcdwymb.htm 广东轻工职业技术学院-字体设计课程]
+
 == 更新 ==
 
 2008-03-05:

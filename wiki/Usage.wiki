@@ -1,4 +1,6 @@
 #summary Usage Page
+|| English || [UsageZhCN 中文] ||
+
 [FontIndustry <- Back to the main page]
 
 Here are the procedures on how to write your own font. Yes, write the font, not create one.

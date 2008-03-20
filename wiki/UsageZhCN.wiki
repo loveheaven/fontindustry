@@ -1,4 +1,7 @@
 #summary 字体工业使用手册.
+
+||[FontIndustry English] || 中文 ||
+
 [FontIndustryZhCN <-返回主页]
 
 _我写我字体，我写我个性，写出自己的个性字体_。

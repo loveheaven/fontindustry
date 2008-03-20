@@ -1,6 +1,6 @@
 #summary 字体工业使用手册.
 
-||[FontIndustry English] || 中文 ||
+||[Usage English] || 中文 ||
 
 [FontIndustryZhCN <-返回主页]
 

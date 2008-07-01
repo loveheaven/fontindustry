@@ -32,7 +32,7 @@ A separated *grid sheet template package* is provided.
   * Python >=2.4 
   * Pygtk
   * Pygoocanvas: GooCanvas python binding. python-pygoocanvas in Debian.
-  * Python-gnome-extra. (For gconf python binding.)
+  * Python-gconf. (On Debian box, it's included in the python-gnome2 package now)
   * Python Imaging Library (called python-imaging in Debian).        http://www.pythonware.com/products/pil/
   
   * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. See [http://fontforge.sourceforge.net/autotrace.html] for more information.

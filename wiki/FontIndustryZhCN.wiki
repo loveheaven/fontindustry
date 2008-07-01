@@ -30,10 +30,10 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
  * Python
  * Pygtk
  * Pygoocanvas (python-pygoocanvas)
- * Python-gnome-extra
+ * Python-gconf (Debian 系统 python-gconf 在 python-gnome2 包中)
  * Python Image Library (python-imaging)
  * [http://fontforge.sourceforge.net/ Fontforge]
- * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace]
+ * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace] (安装后 FontForge 会自动识别)
 
 == 演示画面 ==
 [ScreenShot 程序运行画面]。

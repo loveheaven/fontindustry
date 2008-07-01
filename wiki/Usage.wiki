@@ -42,9 +42,9 @@ Well, I am sorry that it takes your more than 20 steps to get to the profit part
 
 *TIP*: You are suggested to pre-process the scanned images with [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] before use the images in the font industry. mkbitmap is a utility of the [http://potrace.sourceforge.net potrace] program. For example:
 {{{
-convert image.png ppm:- |mkbitmap -f 10 -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
+convert image.png ppm:- |mkbitmap -n -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
 }}}
-which converts an image by applying a high pass filter of 10 (-f 10), then scale up by 3 (-s 3) and finally, convert to black & white bitmap using 0.46 as the middle point (-t 0.46). convert is a tool of [http://www.imagemagick.org/index.php ImageMagick].
+which converts an image by turn off the high pass filter(-n), then scale up by 3 (-s 3) and finally, convert to black & white bitmap using 0.46 as the middle point (-t 0.46). convert is a tool of [http://www.imagemagick.org/index.php ImageMagick].
 
 In a batch nut shell:
 {{{
@@ -52,7 +52,7 @@ In a batch nut shell:
 for i in "$@" ; do
  outname="bw-${i}.png"
  echo "Saving to ${outname}..."
- convert "$i" ppm:- | mkbitmap -x -f 10 -s 3  -t 0.46  | convert pbm:- "${outname}"
+ convert "$i" ppm:- | mkbitmap -n -s 3  -t 0.46  | convert pbm:- "${outname}"
 done
 }}}
 

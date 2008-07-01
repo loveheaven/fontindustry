@@ -68,9 +68,9 @@ _我写我字体，我写我个性，写出自己的个性字体_。
 
 *建议*： 如果图像质量一般，在使用字体工业处理图像之前，最好先用 [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
 {{{
-convert image.png ppm:- |mkbitmap -f 10 -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
+convert image.png ppm:- |mkbitmap -n -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
 }}}
-它的意思是用 mkbitmap 先来一个高通滤波 (-f 10)减少杂点，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以0.46做为黑白分割点(-t 0.46)。
+它的意思是用 mkbitmap 先关闭高通滤波器，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以0.46做为黑白分割点(-t 0.46)。
 convert 是 [http://www.imagemagick.org/index.php ImageMagick] 这套程序里的一个图像转换工具，因为 mkbitmap 只认 ppm，输出 pbm，所以需要进行格式转换。
 
 批处理一脚踢：
@@ -79,7 +79,7 @@ convert 是 [http://www.imagemagick.org/index.php ImageMagick] 这套程序里�
 for i in "$@" ; do
  outname="bw-${i}.png"
  echo "Saving to ${outname}..."
- convert "$i" ppm:- | mkbitmap -x -f 10 -s 3  -t 0.46  | convert pbm:- "${outname}"
+ convert "$i" ppm:- | mkbitmap -n -s 3  -t 0.46  | convert pbm:- "${outname}"
 done
 }}}
 使用： `blackwhite *jpg`

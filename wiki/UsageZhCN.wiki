@@ -70,7 +70,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
 {{{
 convert image.png ppm:- |mkbitmap -n -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
 }}}
-它的意思是用 mkbitmap 先关闭高通滤波器，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以0.46做为黑白分割点(-t 0.46)。
+它的意思是用 mkbitmap 先关闭高通滤波器(-n)，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以0.46做为黑白分割点(-t 0.46)。
 convert 是 [http://www.imagemagick.org/index.php ImageMagick] 这套程序里的一个图像转换工具，因为 mkbitmap 只认 ppm，输出 pbm，所以需要进行格式转换。
 
 批处理一脚踢：

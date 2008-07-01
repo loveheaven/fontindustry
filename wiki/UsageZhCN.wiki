@@ -49,6 +49,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
  # 建立一个空白的字体文件，把上面的点阵字体输入成背景。 (File->Import...，然后选择 As Background)
  # 选择所有字型。 (Edit->Select->Select All)
  # 利用 fontforge 的自动描线功能，绘出字体的矢量曲线。 (Element->*Autotrace*)
+   更多关于自动描线功能，参见[http://fontforge.sourceforge.net/autotrace.html Fontforge 的相关说明]。
  # 微调字体，更改字体的间隔，大小，底线位置，设定其他的选项，说明，版权，联系地址。
      提示：
       * 手写体汉字未必一定是等宽字，可以是变宽，这样才能更好的表现手书的活力和灵动。

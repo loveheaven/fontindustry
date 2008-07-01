@@ -45,6 +45,9 @@ _我写我字体，我写我个性，写出自己的个性字体_。
  # 重复以上步骤，处理下一张扫描好的字体，直到全部处理完毕。
  # 生成 fontforge 的 .sfd 格式文件。 (File -> *Export To FontForge*)
  # 用 fontforge 打开生成的 .sfd 文件。
+ # 生成一个点阵字体，.bdf 格式。 (File->Generate)
+ # 建立一个空白的字体文件，把上面的点阵字体输入成背景。 (File->Import...，然后选择 As Background)
+ # 选择所有字型。 (Edit->Select->Select All)
  # 利用 fontforge 的自动描线功能，绘出字体的矢量曲线。 (Element->*Autotrace*)
  # 微调字体，更改字体的间隔，大小，底线位置，设定其他的选项，说明，版权，联系地址。
      提示：
@@ -52,15 +55,36 @@ _我写我字体，我写我个性，写出自己的个性字体_。
       * Fontforge 提供去除重叠曲线，修正曲线方向，简化矢量曲线，等自动处理功能。
       * Fontforge 也提供对字体进行变形，美化，粗化，倾斜，加框，加阴影，合并等操作。
       * 可以尝试 Element 菜单下的各种操作。
+ # 选择所有字型，删除背景图像。 (Edit->Clear Background)
  # 生成 TTF, OpenType 等各种格式的矢量字体文件。 (File -> *Generate Font*)
  # ...
  # 发达！
 
 虽然未必就真能发达，不过多写几种字体，四处传播，成名是有可能的。名成自然利就，发达也未必只是梦。
 
-要走20步才能显出个性，看起来复杂，其实就是用鼠标这儿点一下，那儿点一下，再打一个字而已。上手后，飞快。
+要走20多步才能显出个性，看起来复杂，其实就是用鼠标这儿点一下，那儿点一下，再打一个字而已。上手后，飞快。
 
 其他功能，留待使用者自己发掘。
+
+*建议*： 如果图像质量一般，在使用字体工业处理图像之前，最好先用 [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
+{{{
+convert image.png ppm:- |mkbitmap -f 10 -s 3 -t 0.46 |convert pbm:- blackwhite-image.png
+}}}
+它的意思是用 mkbitmap 先来一个高通滤波 (-f 10)减少杂点，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以0.46做为黑白分割点(-t 0.46)。
+convert 是 [http://www.imagemagick.org/index.php ImageMagick] 这套程序里的一个图像转换工具，因为 mkbitmap 只认 ppm，输出 pbm，所以需要进行格式转换。
+
+批处理一脚踢：
+{{{
+#!/bin/sh
+for i in "$@" ; do
+ outname="bw-${i}.png"
+ echo "Saving to ${outname}..."
+ convert "$i" ppm:- | mkbitmap -x -f 10 -s 3  -t 0.46  | convert pbm:- "${outname}"
+done
+}}}
+使用： `blackwhite *jpg`
+
+如果图像质量好，当然这步就没有必要了。而如果质量太差，可能还需要先在 gimp 里，描漂亮了再辨认。
 
 祝你大肆张扬自己的个性，把自己的快乐，建筑在恶心别人之上。毕加索就是这么干的，他、他、他就成名了！
 

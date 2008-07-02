@@ -13,7 +13,7 @@ License: GNU GPL version 3 or later. Please see the included LICENSE file.
 
 Font Industry industrialize procedure of the big charset font production. It
 free the big charset font creation from artists' studio into the average John's
-basement. The font market will be flooded with huge amount of `cheap`, ~~low
+basement. The font market will be flooded with huge amount of ,,cheap,,, ~~low
 quality~~, *big charset*, _hand script_ fonts in no time. Be scared! Be very scared!
 
 What does Font Industry really do?

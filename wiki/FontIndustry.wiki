@@ -22,7 +22,7 @@ The program converts a scanned in grid sheet containing a lot of glyphs into a b
 
 The bitmap font format used is the fontforge .sfd.
 
-A scalable font (TTF, OpenType) can then be generated using fontforge's
+A scalable font (TTF, !OpenType/OTF) can then be generated using fontforge's
 autotrace function.
 
 A separated *grid sheet template package* is provided.
@@ -31,7 +31,7 @@ A separated *grid sheet template package* is provided.
 
   * Python >=2.4 
   * Pygtk
-  * Pygoocanvas: GooCanvas python binding. python-pygoocanvas in Debian.
+  * Pygoocanvas: !GooCanvas python binding. python-pygoocanvas in Debian.
   * Python-gconf. (On Debian box, it's included in the python-gnome2 package now)
   * Python Imaging Library (called python-imaging in Debian).        http://www.pythonware.com/products/pil/
   
@@ -84,7 +84,7 @@ Note:
 2008-01-19:
   * Version 0.0.5.
   * When export to .sfd font, set some sane tags for the font.
-  * Change ascend/descent to 880/120 and add LineGap to 200.
+  * Change ascend/descent to 880/120 and add !LineGap to 200.
   * Add 4 standard glyphs to the begining of a font.
   * Add a image list pan for mass importing glyph sheet.
   * Minor bug fixes.

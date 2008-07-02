@@ -43,7 +43,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
  # 保存到字体工业自己的字体格式。 (File -> *Save*)
      字体文件的后缀是 .fontin
  # 重复以上步骤，处理下一张扫描好的字体，直到全部处理完毕。
- # 生成 fontforge 的 .sfd 格式文件。 (File -> *Export To FontForge*)
+ # 生成 fontforge 的 .sfd 格式文件。 (File -> *Export To !FontForge*)
  # 用 fontforge 打开生成的 .sfd 文件。
  # 生成一个点阵字体，.bdf 格式。 (File->Generate)
  # 建立一个空白的字体文件，把上面的点阵字体输入成背景。 (File->Import...，然后选择 As Background)
@@ -57,7 +57,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
       * Fontforge 也提供对字体进行变形，美化，粗化，倾斜，加框，加阴影，合并等操作。
       * 可以尝试 Element 菜单下的各种操作。
  # 选择所有字型，删除背景图像。 (Edit->Clear Background)
- # 生成 TTF, OpenType 等各种格式的矢量字体文件。 (File -> *Generate Font*)
+ # 生成 TTF, !OpenType 等各种格式的矢量字体文件。 (File -> *Generate Font*)
  # ...
  # 发达！
 

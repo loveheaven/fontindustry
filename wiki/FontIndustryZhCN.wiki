@@ -33,7 +33,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
  * Python-gconf (Debian 系统上在 python-gnome2 包中)
  * Python Image Library (python-imaging)
  * [http://fontforge.sourceforge.net/ Fontforge]
- * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace] (安装后 [http://fontforge.sourceforge.net/autotrace.html FontForge 会自动识别])
+ * [http://potrace.sf.net/ Potrace] 或者 [http://autotrace.sourceforge.net/ autotrace] (安装后 [http://fontforge.sourceforge.net/autotrace.html FontForge 会自动识别]，可以把环境变量 POTRACE 或者 AUTOTRACE 指向程序路径来选择优先使用哪个程序。)
 
 == 演示画面 ==
 [ScreenShot 程序运行画面]。

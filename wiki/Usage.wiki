@@ -26,7 +26,7 @@ Note: The executable name is *fontin*.
       You can type in a single character or type in a hex code of the character e.g. 0xa1a1.
   # Save the result into Font Industry's native font file. (File->*Save*)
   # Load another glyph sheet and repeat above steps until all your glyph sheet are processed.
-  # Generate fontforge's .sfd font. (File->*Export to FontForge*)
+  # Generate fontforge's .sfd font. (File->*Export to !FontForge*)
   # Open the resulting .sfd font in fontforge.
   # Export the font into a bitmap font (File->*Generate Font*).
   # Open a new font, import the previous bitmap font as background. (File->Import... and select As Background)
@@ -35,7 +35,7 @@ Note: The executable name is *fontin*.
       More information about autotrace can be found at [http://fontforge.sourceforge.net/autotrace.html fontforge's autotrace page].
   # Fine touch the font, set proper font informations.
   # Select all and Remove the background images. (Edit->Clear Background)
-  # Export to OpenType, TrueType font. (File->*Generate Font*)
+  # Export to !OpenType, !TrueType font. (File->*Generate Font*)
   # ...
   # Profit!
 

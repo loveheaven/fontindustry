@@ -35,7 +35,7 @@ A separated *grid sheet template package* is provided.
   * Python-gconf. (On Debian box, it's included in the python-gnome2 package now)
   * Python Imaging Library (called python-imaging in Debian).        http://www.pythonware.com/products/pil/
   
-  * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
+  * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. They will be automatically recognized once installed. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
 
 == Screenshots ==
 
@@ -45,13 +45,13 @@ A separated *grid sheet template package* is provided.
 http://code.google.com/p/fontindustry/downloads/list
 
 == Usage ==
+[Usage Link to the usage page].
+
 Note:
 
   The command name is *fontin*.
 
   程序名称为: *fontin*
-
-[Usage Link to the usage page].
 
 == Mailing List ==
 ||User: || http://groups.google.com/group/fontindustry-user/topics ||

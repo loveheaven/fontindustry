@@ -22,7 +22,7 @@ The program converts a scanned in grid sheet containing a lot of glyphs into a b
 
 The bitmap font format used is the fontforge .sfd.
 
-A *outline font* (TTF, !OpenType/OTF) can then be generated using fontforge's
+An *outline font* (TTF, !OpenType/OTF) can then be generated using fontforge's
 autotrace function.
 
 A separated *grid sheet template package* is provided.

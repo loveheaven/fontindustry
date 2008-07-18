@@ -65,6 +65,19 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == News ==
+2008-07-18:
+  * Version 0.0.8
+  * Handle invalid encoding for unicode
+  * Convert to utf-8 before saving pathname for non-latin1 pathname.
+  * Fix mouse abnormal for large image
+  * Handle both RGB (jpeg) and RGBA images
+  * Generate font using UnicodeFull encoding
+  * Add function to set glyph unicode from a piece of string
+  * Add menuitem to clear charcode for all the glyphs
+  * Create a new application icon
+  * Add rpm, deb package files (might be buggy, please report)
+  * Fix some setup.py problem
+
 2008-03-05:
   * Release 0.0.7
   * Major bug fix: Save current glyph order while saving new font.

@@ -65,6 +65,16 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
   * [http://ecourse.gdqy.edu.cn/jp_guojiaji/2006/ztsj/index2.htm 广东轻工职业技术学院-字体设计课程]
 
 == 更新 ==
+2008-07-18:
+  * 发布 0.0.8 版。
+  * 处理非法统一码编码。
+  * 修正中文路径问题。
+  * 修正大图导致的鼠标位置混乱。
+  * 修正一些设定文件 setup.py 的错误。
+  * 正确处理 RGB 图像，jpeg 格式。
+  * 提供用一段文字来设定一组字模的统一码编码的功能。
+  * 更新程序图标。
+  * 新增打 rpm, deb 包的代码。
 
 2008-03-05:
   * 发布 0.0.7 版。

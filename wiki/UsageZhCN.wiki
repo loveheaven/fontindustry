@@ -74,13 +74,13 @@ _我写我字体，我写我个性，写出自己的个性字体_。
 
 *建议*： 如果图像质量一般，在使用字体工业处理图像之前，最好先用 [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
 {{{
-convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:-  -type BiLevel -quality 0 blackwhite-image.png
+convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:- -quality 0 blackwhite-image.png
 }}}
 它的意思是用 mkbitmap 先关闭高通滤波器(-n)，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以52%黑度做为黑白分割点(-t 0.52)。
 
 如果完全关闭高通滤波器，那么可以只用 convert 达到同样的效果：
 {{{
-convert -resize 300% -threshold 52% -type BiLevel -quality 0 image.png blackwhite.png
+convert -resize 300% -threshold 52% -quality 0 image.png blackwhite.png
 }}}
 
 convert 是 [http://www.imagemagick.org/index.php ImageMagick] 这套程序里的一个图像转换工具，它可以做很多其他图像预处理的工作；因为 mkbitmap 只认 ppm，输出 pbm，所以需要进行格式转换。
@@ -92,12 +92,13 @@ for i in "$@" ; do
  outname="bw-${i}.png"
  echo "Saving to ${outname}..."
  convert "$i" ppm:- | mkbitmap -n -s 3  -t 0.52  | convert pbm:- "${outname}"
- #convert "$i" -resize 300% -threshold 52% -type BiLevel -quality 0 "${outname}"
+ #convert "$i" -resize 300% -threshold 52% -quality 0 "${outname}"
 done
 }}}
 使用： `blackwhite *jpg`
 
 如果图像质量好，当然这步就没有必要了。而如果质量太差，可能还需要先在 gimp 里，描漂亮了再辨认。
+   提示：在 gimp 里描线，先把图像显示放大个4到8倍，会更顺手。可以同时开两个窗口，一个正常显示，一个8倍显示。 View->
 
 祝你大肆张扬自己的个性，把自己的快乐，建筑在恶心别人之上。毕加索就是这么干的，他、他、他就成名了！
 

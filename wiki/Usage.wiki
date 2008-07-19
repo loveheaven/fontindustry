@@ -8,8 +8,11 @@ Here are the procedures on how to write your own font. Yes, write the font, not 
 Basic procedures:
   open image->create grid->generate character index->save font->export .sfd.
 == Screencast ==
-  # [http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast01.avi Font Industry Screencast 01](8.6MB): Tutorial to create a TTF font from a low quality screen capture image.
+  # [http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast01.avi Font Industry Screencast 01] (8.6MB): Tutorial to create a TTF font from a low quality screen capture image.
     The quality of the final TTF is kinda poor because the resolution of the original image is quite low. 1 square inch (~3cm) glyphs scanned in at 300dpi should yield better result.
+  # [http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast02.avi Font Industry Screencast 02] (15MB): Tutorial on the "Set Charcodes to String" function.
+    Sample pages of a book from an online library was used. The book can be found at [http://nla.gov.au/nla.gen-vn1889757]. The images were pre-processed manually with Gimp.
+
 
 == Steps ==
 Note: The executable name is *fontin*.

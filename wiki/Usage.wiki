@@ -48,7 +48,12 @@ Well, I am sorry that it takes your more than 20 steps to get to the profit part
 {{{
 convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:- blackwhite-image.png
 }}}
-which converts an image by turn off the high pass filter(-n), then scale up by 3 (-s 3) and finally, convert to black & white bitmap using 52% of black as the middle point (-t 0.52). convert is a tool of [http://www.imagemagick.org/index.php ImageMagick].
+which converts an image by turn off the high pass filter(-n), then scale up by 3 (-s 3) and finally, convert to black & white bitmap using 52% of black as the middle point (-t 0.52). `convert` is a tool of [http://www.imagemagick.org/index.php ImageMagick]. `convert` can be used to do much more work on image pre-processing.
+
+Since the high pass filter was turned off completely, we can archive the same result using `convert` only:
+{{{
+convert -threshold 52% -resize 300% image.png blackwhite.png
+}}}
 
 In a batch nut shell:
 {{{
@@ -57,6 +62,7 @@ for i in "$@" ; do
  outname="bw-${i}.png"
  echo "Saving to ${outname}..."
  convert "$i" ppm:- | mkbitmap -n -s 3  -t 0.52  | convert pbm:- "${outname}"
+ #convert -threshold 52% -resize 300% "$i" "${outname}"
 done
 }}}
 

@@ -23,7 +23,7 @@ _我写我字体，我写我个性，写出自己的个性字体_。
 .sfd 格式的字体是用来最终生成我们应用程序可以使用的矢量字体，例如 TTF 格式，需要用 [http://fontforge.sourceforge.net/ fontforge] 这个程序打开 .sfd 文件，然后生成 TTF 等矢量字体就可以了。
 
 == 视频演示 ==
-  # [http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast01.avi 字体工业视频演示01]: 使用低解析度的屏幕截图制作矢量字体示范。
+  # [http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast01.avi 字体工业视频演示01](8.6MB): 使用低解析度的屏幕截图制作矢量字体示范。
     这个演示生成的TTF字体质量较差，因为从屏幕上截下来的图像解析度很低，使得自动描线时可利用的信息量太少。使用3厘米见方的字模，用300dpi的解析度扫描的图像，效果应该好很多。这里自动描线使用的程序是 potrace 。
 
 

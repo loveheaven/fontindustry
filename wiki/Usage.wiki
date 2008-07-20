@@ -47,7 +47,8 @@ Note: The executable name is *fontin*.
 
 Well, I am sorry that it takes your more than 20 steps to get to the profit part, but it is actually quite fast once you get to know the streamline.
 
-*TIP*: You are suggested to pre-process the scanned images with [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] before use the images in the font industry. mkbitmap is a utility of the [http://potrace.sourceforge.net potrace] program. For example:
+== Image Pre-processing ==
+You are suggested to pre-process the scanned images with [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] before use the images in the font industry. mkbitmap is a utility of the [http://potrace.sourceforge.net potrace] program. For example:
 {{{
 convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:- -type Palette -quality 0 blackwhite-image.png
 }}}

@@ -74,7 +74,8 @@ _我写我字体，我写我个性，写出自己的个性字体_。
 
 其他功能，留待使用者自己发掘。
 
-*建议*： 如果图像质量一般，在使用字体工业处理图像之前，最好先用 [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
+== 图像预处理 ==
+如果图像质量一般，在使用字体工业处理图像之前，最好先用 [http://potrace.sourceforge.net/mkbitmap.html mkbitmap] 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
 {{{
 convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:- -type Palette -quality 0 blackwhite-image.png
 }}}

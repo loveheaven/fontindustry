@@ -24,7 +24,7 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 字体工业的具体功能，就是把一张格子纸上写好的的几十个汉字，分割成独立字模，然后自动编号。再使用 [http://fontforge.sourceforge.net/ FontForge] 程序生成一套个性化的*点阵字体*，或者*矢量字体*。
 
 == 工具 ==
- * 扫描仪
+ * 扫描仪 (最好有自动原稿送纸器的，一些多功能打印机有可能配备)
  * 笔 (铅笔，毛笔，钢笔，圆珠笔，蜡笔，记号笔...)
  * 白纸
 

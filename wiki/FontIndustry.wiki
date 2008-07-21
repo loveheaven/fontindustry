@@ -37,7 +37,7 @@ A separated *grid sheet template package* is provided.
   
   * You will also want to install [http://fontforge.sourceforge.net/ FontForge] and [http://potrace.sf.net/ potrace]/[http://autotrace.sourceforge.net/ autotrace] for scalable font creation. They will be automatically recognized once installed. See [http://fontforge.sourceforge.net/autotrace.html] for more information.
 
-Of course you also should have:
+Of course you should also have:
   * Pens
   * Paper
   * Scanner (For bulk scanning job, a scanner with _Auto Document Feeder_ is recommended. Some Multi-Function Printers will come with one.)

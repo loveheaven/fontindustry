@@ -64,6 +64,8 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
   * [http://szgwk.com/html/zitibangzhu/index.html 字体之家字体设计文章收藏]
   * [http://ecourse.gdqy.edu.cn/jp_guojiaji/2006/ztsj/index2.htm 广东轻工职业技术学院-字体设计课程]
 
+  * [ChinesePythonTutor 非程序员 Python 编程概念]: 让非程序员迅速上手写程序，一堂课的内容。
+
 == 更新 ==
 2008-07-18:
   * 发布 0.0.8 版。

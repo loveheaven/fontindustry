@@ -1,9 +1,9 @@
-#summary CenterGlyph 字型居中插件说明.
+#summary CenterGlyph 字型居中对齐插件说明.
 
 ||[CenterGlyph English] || 中文 ||
 
 [FontIndustryZhCN <-返回主页]
-= 字型居中插件 =
+= 字型居中对齐插件 =
 !FontForge 的插件。
 
 == 插件功能 ==

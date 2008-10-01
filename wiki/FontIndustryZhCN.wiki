@@ -56,6 +56,8 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
 == 辅助工具 ==
 === 格子纸生成器 ===
    GridPaper 是一个简单的格子纸模板生成器。可以用来制造 .svg 格式的格子模板。可以从[http://code.google.com/p/fontindustry/downloads/list 下载网页]下载。
+=== 字体对齐工具 ===
+   [CenterGlyphCN CenterGlyph] 是一个fontforge 插件，可以对齐字体。
 
 == 其他连接 ==
   * [http://hashao.googlecode.com/ hashao's other projects]
@@ -67,6 +69,9 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
   * [http://code.google.com/p/hashao/wiki/ChinesePythonTutor 非程序员 Python 编程概念]: 让非程序员迅速上手写程序，一堂课的内容。
 
 == 更新 ==
+2008-10-01:
+  * 发布字体对齐插件 [CenterGlyphCN CenterGlyph]　0.1。
+
 2008-07-18:
   * 发布 0.0.8 版。
   * 处理非法统一码编码。

@@ -4,7 +4,7 @@
 
 [FontIndustryZhCN <-返回主页]
 = 字型居中插件 =
-FontForge 的插件。
+!FontForge 的插件。
 
 == 插件功能 ==
   * 计算所有选中字的轮廓的最大的宽和高

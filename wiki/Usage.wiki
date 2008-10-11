@@ -24,7 +24,7 @@ Note: The executable name is *fontin*.
   # Start the Font Industry (the command is 'fontin').
   # Open the scanned image with Font Industry (File->*Open Image*)
   # Drag the rubber bands to set the glyph cell size.
-    Tips: Adjust the right and the bottom bands such that they are at the middle of characters; then adjust the left and the top bands to make the margins symmetric.
+    Tips: Adjust the right and the bottom bands first such that they are at the middle of characters; then adjust the left and the top bands to make the margins symmetric.
   # Create the grid lines for the image. (Action->*Create Grid*)
   # Repeat 6 to 7 until you are satisfied with the grid.
   # Unset the click buttons in the cell to mark bad cells.

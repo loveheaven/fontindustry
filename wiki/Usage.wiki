@@ -46,6 +46,9 @@ Note: The executable name is *fontin*.
   # ...
   # Profit!
 
+
+*P.S.* You can hint an _end cell_ by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
+
 Well, I am sorry that it takes your more than 20 steps to get to the profit part, but it is actually quite fast once you get to know the streamline.
 
 == Image Pre-processing ==
@@ -70,8 +73,6 @@ for i in "$@" ; do
  #convert "$i" -resize 300% -threshold 52% -type Palette -quality 0 "${outname}"
 done
 }}}
-
-*P.S.* You can hint an _end cell_ by focus on the cell and click the "Toggle End" button. Any cells after this cell will be treated as garbage.
 
 Enjoy your own hand writing font and FLOOD the font market. Don't let me down.
 

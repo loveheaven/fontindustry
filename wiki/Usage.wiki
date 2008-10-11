@@ -22,8 +22,9 @@ Note: The executable name is *fontin*.
     Tip: Use a clip to stick the foreground and background papers together.
   # Scan in the sheet at 300dpi or higher resolution. Save images in the .png format.
   # Start the Font Industry (the command is 'fontin').
-  # Open the scanned image with Font Industy (File->*Open Image*)
-  # Drag the ruber bands to set the glyph cell size.
+  # Open the scanned image with Font Industry (File->*Open Image*)
+  # Drag the rubber bands to set the glyph cell size.
+    Tips: Adjust the right and the bottom bands such that they are at the middle of characters; then adjust the left and the top bands to make the margins symmetric.
   # Create the grid lines for the image. (Action->*Create Grid*)
   # Repeat 6 to 7 until you are satisfied with the grid.
   # Unset the click buttons in the cell to mark bad cells.

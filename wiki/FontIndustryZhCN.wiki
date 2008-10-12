@@ -69,6 +69,13 @@ Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the in
   * [http://code.google.com/p/hashao/wiki/ChinesePythonTutor 非程序员 Python 编程概念]: 让非程序员迅速上手写程序，一堂课的内容。
 
 == 更新 ==
+2008-10-12:
+  * FontIndustry 0.0.9 版发布。
+  * 增加图像变焦功能。
+  * 更新 sfd 文件 family name.
+  * 从文字设定字型时，优先采用选中的文字段。
+  * 错误修正……
+
 2008-10-01:
   * 发布字体对齐插件 [CenterGlyphCN CenterGlyph]　0.1。
 

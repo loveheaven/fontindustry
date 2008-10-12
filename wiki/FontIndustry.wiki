@@ -70,6 +70,18 @@ Note:
   * [http://hashao.googlecode.com/ hashao's other projects]
 
 == News ==
+2008-10-12:
+  * Version 0.0.9
+  * Update family name to the sfd font.
+  * Add the zoom image function.
+  * When set glyph from text, try selected text first.
+  * Move "Set End" button to the toolbar.
+  * Misc bug fixes.
+
+2008-10-01:
+  * Release CenterGlyph　0.1.
+  * A !FontForge plugin to auto central aligns selected glyphs.
+
 2008-07-18:
   * Version 0.0.8
   * Handle invalid encoding for unicode

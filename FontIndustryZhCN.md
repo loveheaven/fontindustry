@@ -1,0 +1,99 @@
+### 曾经有一个扬名立万的机会摆在我面前…… ###
+
+|[English](FontIndustry.md) | 中文 |
+|:--------------------------|:---|
+
+万事开头难，所以就先开了这么个头
+
+# 字体工业 Font Industry #
+
+Copyright (c) Hashao 2007 License: GNU GPL version 3 or later. Please see the included LICENSE file.
+
+# 字体制造的工业化革命 #
+
+字体工业的目的，是帮助那些觉得自己字写的不错的业余爱好者，写出自己的个性字体。
+
+当然狗爬体也是各有不同的爬法，做出来的字体应该也是别具特色，可以做为美术作品的渲染。具体审美观的辩论，不是字体工业所关心的事。这个时代，强调的是感觉，来电就行。
+
+总之，我们希望把\*汉字字体制作\*这项看似艰巨的工作，**从艺术家的工作室搬到寻常百姓的书桌上来**，让它成为一项简单的，轻松而又愉快的工作。让每个人都能在电脑里用上自己亲笔手写的字体，让自己的求职信，情书，家书，邀请函，请帖，博客，自拍录像、翻译影片的字幕、片头，名片，工艺品，个人报纸，杂志，文件，签名，商标等等，都可以展现出自己的笔体，书法，个性。
+
+美也是我写的，丑也是我写的，不论美丑，我的字中有我的个性。
+
+字体工业的具体功能，就是把一张格子纸上写好的的几十个汉字，分割成独立字模，然后自动编号。再使用 [FontForge](http://fontforge.sourceforge.net/) 程序生成一套个性化的\*点阵字体**，或者\*矢量字体**。
+
+## 工具 ##
+  * 扫描仪 (最好有自动原稿送纸器的，一些多功能打印机有可能配备)
+  * 笔 (铅笔，毛笔，钢笔，圆珠笔，蜡笔，记号笔...)
+  * 白纸
+
+## 软件 ##
+  * Python
+  * Pygtk
+  * Pygoocanvas (python-pygoocanvas)
+  * Python-gconf (Debian 系统上在 python-gnome2 包中)
+  * Python Image Library (python-imaging)
+  * [Fontforge](http://fontforge.sourceforge.net/)
+  * [Potrace](http://potrace.sf.net/) 或者 [autotrace](http://autotrace.sourceforge.net/) (安装后 [FontForge 会自动识别](http://fontforge.sourceforge.net/autotrace.html)，可以把环境变量 POTRACE 或者 AUTOTRACE 指向程序路径来选择优先使用哪个程序。)
+
+## 演示画面 ##
+[程序运行画面](ScreenShot.md)。
+
+## 下载 ##
+http://code.google.com/p/fontindustry/downloads/list
+
+## 使用说明 ##
+[使用手册](UsageZhCN.md)
+
+程序名称为: **fontin**
+
+## 邮件列表 ##
+
+| 使用: | http://groups.google.com/group/fontindustry-user/topics |
+|:----|:--------------------------------------------------------|
+| 开发: | http://groups.google.com/group/fontindustry-dev/topics  |
+
+## 辅助工具 ##
+### 格子纸生成器 ###
+> GridPaper 是一个简单的格子纸模板生成器。可以用来制造 .svg 格式的格子模板。可以从[下载网页](http://code.google.com/p/fontindustry/downloads/list)下载。
+### 字体对齐工具 ###
+> [CenterGlyph](CenterGlyphCN.md) 是一个fontforge 插件，可以对齐字体。
+
+## 其他连接 ##
+  * [hashao's other projects](http://hashao.googlecode.com/)
+  * [snl的纯水坊(字体设计)](http://snl.blueidea.com/cmd.shtml?do=blogs&id=114&uid=121)
+  * [4A酒吧字体设计文章收藏](http://www.4a98.com/design/font/)
+  * [字体之家字体设计文章收藏](http://szgwk.com/html/zitibangzhu/index.html)
+  * [广东轻工职业技术学院-字体设计课程](http://ecourse.gdqy.edu.cn/jp_guojiaji/2006/ztsj/index2.htm)
+
+  * [非程序员 Python 编程概念](http://code.google.com/p/hashao/wiki/ChinesePythonTutor): 让非程序员迅速上手写程序，一堂课的内容。
+
+## 更新 ##
+2008-10-12:
+  * FontIndustry 0.0.9 版发布。
+  * 增加图像变焦功能。
+  * 更新 sfd 文件 family name.
+  * 从文字设定字型时，优先采用选中的文字段。
+  * 错误修正……
+
+2008-10-01:
+  * 发布字体对齐插件 [CenterGlyph](CenterGlyphCN.md)　0.1。
+
+2008-07-18:
+  * 发布 0.0.8 版。
+  * 处理非法统一码编码。
+  * 修正中文路径问题。
+  * 修正大图导致的鼠标位置混乱。
+  * 修正一些设定文件 setup.py 的错误。
+  * 正确处理 RGB 图像，jpeg 格式。
+  * 提供用一段文字来设定一组字模的统一码编码的功能。
+  * 更新程序图标。
+  * 新增打 rpm, deb 包的代码。
+
+2008-03-05:
+  * 发布 0.0.7 版。
+  * 重大修正：保存新字体时，同时保存当前排序字符集
+  * 增添 GB2312 排序选择。
+
+2008-03-02:
+  * 发布 0.0.6 版。
+  * 查看字体窗口采用当前字符集顺序排序。

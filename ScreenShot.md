@@ -1,0 +1,16 @@
+[<- Back to the main page](FontIndustry.md)
+
+### 用 xfd -fn hanzigb24st 随意生成的一页纸 ###
+
+There really should be no black grid lines in the image. Put the grid sheet under the paper on which you write the glyphs. Clip the sheets together.
+
+![http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png](http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot01.png)
+
+第一个字当然是念半边， dui4 怼。
+
+
+![http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot02.png](http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screenshot02.png)
+
+### View Font Dialog ###
+
+![http://fontindustry.googlecode.com/svn/wiki/screenshots/viewfont-01.png](http://fontindustry.googlecode.com/svn/wiki/screenshots/viewfont-01.png)

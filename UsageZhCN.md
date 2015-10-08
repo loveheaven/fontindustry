@@ -1,0 +1,118 @@
+|[English](Usage.md) | 中文 |
+|:-------------------|:---|
+
+[<-返回主页](FontIndustryZhCN.md)
+
+_我写我字体，我写我个性，写出自己的个性字体_。
+
+## 简介 ##
+这里我们说**“写”**一个字体，而不说制作一个字体，是因为使用`字体工业`来制作一个字体，也就是写几千个字而已，没什么难度。
+
+首先，本程序的命令行是 `fontin` 。
+
+基本步骤就是：
+
+先写字：
+> 打印或手绘一张\*格子纸**，做为模板，在上面拓着写字。字的次序，可以根据国标的 GB2312, GBK, 或者 GB18030 的次序来书写，也可以直接根据统一码 (Unicode) 的次序来书写。**
+
+> [下载网页](http://code.google.com/p/fontindustry/downloads/list)提供几种格子纸模板的 PDF 文件可供参考。
+
+再电脑处理：
+> 扫描写好的字 (300dpi,600dpi 或以上) -> 用字体工业打开扫描好的图像 -> 在图像上打格子 -> 对格子进行编码 -> 储存生成的字体 -> 输出 .sfd 格式字体。
+
+.sfd 格式的字体是用来最终生成我们应用程序可以使用的矢量字体，例如 TTF, OTF 格式，需要用 [fontforge](http://fontforge.sourceforge.net/) 这个程序打开 .sfd 文件，然后生成 TTF, OTF 等矢量字体就可以了。
+
+## 视频演示 ##
+  1. [字体工业视频演示01](http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast01.avi) (8.6MB): 使用低解析度的屏幕截图制作矢量字体示范。
+> > 这个演示生成的TTF字体质量较差，因为从屏幕上截下来的图像解析度很低，使得自动描线时可利用的信息量太少。使用3厘米见方的字模，用300dpi或600dpi的解析度扫描的图像，效果应该好很多。这里自动描线使用的程序是 potrace 。
+  1. [字体工业视频演示02](http://fontindustry.googlecode.com/svn/wiki/screenshots/fontindustry-screencast02.avi) (15MB): 演示使用一段文字来设定字模编码的功能。
+> > 演示中使用的图像是从一个网络图书馆上的一本书里摘的，书名为[《六百字粤语杂句》](http://nla.gov.au/nla.gen-vn1889757)。字样使用毛笔书写，黑白临界值设为46%时，笔画上有不少白点。处理前使用 Gimp 手工把白点补齐，在边界处比较浪费时间。也许使用更低的黑白临界值会更好些，但不能完全避免手工活儿。字样质量很重要啊。
+
+## 具体步骤 ##
+
+  1. 打印或手绘一张格子纸，做为写字用的衬纸。可以从[下载网页](http://code.google.com/p/fontindustry/downloads/list)下载模板。
+> > 提示：
+      * 在写 GB2312 或者 GBK 这两个字符集的字体时，可以考虑使用 96 个格子一张的衬纸，因为 GB2312 是 94 个字算一区，GBK 是 2x96=192 个字一区，这样按照一张纸一个区，两张纸一个区来写，便于跟踪进度。当然这也不是绝对的，对于老写错别字还不喜欢用涂改液的人来说，用多少格子一张纸都差不多。写大字可以用 48 个格一张的纸，两张一个区。
+      * 可以参考 [做字网](http://www.6763.net/MAKEFONT/hiQ/q1.htm)之类的网上关于字体设计的文章。
+      * [文字设计的制图方法（印刷体制图说明）](http://www.gzarts.org/html/04/n-904.html)
+  1. 在白纸上写字，以格子纸衬底。根据选定的字符集的次序写。最好用别针把两张纸别到一起，免得瞎晃。
+  1. 写够了，把写好的字用扫描器扫进去。用 300dpi, 600dpi 或者以上的解析度。黑白就可以。用 .png 格式存起来就可以了。
+  1. 打开`字体工业`。命令： `fontin`
+  1. 打开扫描好的字体图像。 (File -> **Open Image**)
+  1. 用程序提供的橡皮筋，框出一个字的格子。
+> > 技巧：先调整右线和底线，让它们尽量处于两字之间；然后再调整左线和顶线，让这个字的上下左右的留白尽量对称。
+  1. 在图像上打格子。 (Action -> **Create Grid**)
+  1. 重复以上两步，直到满意格子的大小，位置为止。
+  1. 把错字，别字，不要的字上的对勾取消。
+  1. 选择一个字符集做为编码次序 (Order)。 GB2312, GBK 选 GB18030 就可以了。
+  1. 对第一个字，指定一个起始编码 (Char)。
+> > 可以直接输入汉字或者它的十六进制编码 (0xA1A2 ...)。
+  1. 保存到字体工业自己的字体格式。 (File -> **Save**)
+> > 字体文件的后缀是 .fontin
+  1. 重复以上步骤，处理下一张扫描好的字体，直到全部处理完毕。
+  1. 生成 fontforge 的 .sfd 格式文件。 (File -> **Export To FontForge**)
+  1. 用 fontforge 打开生成的 .sfd 文件。
+  1. 生成一个点阵字体，.bdf 格式。 (File->Generate)
+  1. 建立一个空白的字体文件，把上面的点阵字体输入成背景。 (File->Import...，然后选择 As Background)
+  1. 选择所有字型。 (Edit->Select->Select All)
+  1. 利用 fontforge 的自动描线功能，绘出字体的矢量曲线。 (Element->**Autotrace**)
+> > 更多关于自动描线功能，参见[Fontforge 的相关说明](http://fontforge.sourceforge.net/autotrace.html)。
+  1. 微调字体，更改字体的间隔，大小，底线位置，设定其他的选项，说明，版权，联系地址。
+> > 提示：
+      * 手写体汉字未必一定是等宽字，可以是变宽，这样才能更好的表现手书的活力和灵动。
+      * Fontforge 提供去除重叠曲线，修正曲线方向，简化矢量曲线，等自动处理功能。
+      * Fontforge 也提供对字体进行变形，美化，粗化，倾斜，加框，加阴影，合并等操作。
+      * 可以尝试 Element 菜单下的各种操作。
+  1. 选择所有字型，删除背景图像。 (Edit->Clear Background)
+  1. 生成 TTF, OpenType 等各种格式的矢量字体文件。 (File -> **Generate Font**)
+  1. ...
+  1. 发达！
+
+虽然未必就真能发达，不过多写几种字体，四处传播，成名是有可能的。名成自然利就，发达也未必只是梦。
+
+要走20多步才能显出个性，看起来复杂，其实就是用鼠标这儿点一下，那儿点一下，再打一个字而已。上手后，飞快。
+
+其他功能，留待使用者自己发掘。
+
+## 字体后期处理 ##
+  * [CenterGlyph](CenterGlyphCN.md) 对齐字符: fontforge 的插件。它可以对齐所有选中的字型的中线。同时具备一些辅助的缩放功能。
+## 图像预处理 ##
+如果图像质量一般，在使用字体工业处理图像之前，最好先用 [mkbitmap](http://potrace.sourceforge.net/mkbitmap.html) 这个程序进行预处理。mkbitmap 是 potrace 里的一个工具。例如：
+```
+convert image.png ppm:- |mkbitmap -n -s 3 -t 0.52 |convert pbm:- -type Palette -quality 0 blackwhite-image.png
+```
+它的意思是用 mkbitmap 先关闭高通滤波器(-n)，再把图像放大3倍(-s 3)，然后把图像转换成黑白图像，以52%黑度做为黑白分割点(-t 0.52)。
+
+如果完全关闭高通滤波器，那么可以只用 convert 达到同样的效果：
+```
+convert -resize 300% -threshold 52% -type Palette -quality 0 image.png blackwhite.png
+```
+
+convert 是 [ImageMagick](http://www.imagemagick.org/index.php) 这套程序里的一个图像转换工具，它可以做很多其他图像预处理的工作；因为 mkbitmap 只认 ppm，输出 pbm，所以需要进行格式转换。
+
+批处理一脚踢：
+```
+#!/bin/sh
+for i in "$@" ; do
+ outname="bw-${i}.png"
+ echo "Saving to ${outname}..."
+ convert "$i" ppm:- | mkbitmap -n -s 3  -t 0.52  | convert pbm:- -type Palette -quality 0 "${outname}"
+ #convert "$i" -resize 300% -threshold 52% -type Palette -quality 0 "${outname}"
+done
+```
+使用： `blackwhite *jpg`
+
+如果图像质量好，当然这步就没有必要了。而如果质量太差，可能还需要先在 gimp 里，描漂亮了再辨认。
+
+> 提示：在 gimp 里描线，先把图像显示放大个4到8倍，会更顺手。可以同时开两个窗口，一个正常显示，一个8倍显示。 (gimp 菜单: View->New View 或者 View->Navigation Window)
+
+祝你大肆张扬自己的个性，把自己的快乐，建筑在恶心别人之上。毕加索就是这么干的，他、他、他就成名了！
+
+## 字符集编码表 ##
+写字时，可能需要参考到的编码表：
+  * [GB2312 简体字](http://fontindustry.googlecode.com/svn/wiki/charcharts/GB2312.txt)。 汉字部分从 0xB0A1 开始。
+  * [GBK 第一版](http://fontindustry.googlecode.com/svn/wiki/charcharts/GBK1.txt)，或者借助[黑暗势力](http://www.microsoft.com/globaldev/reference/dbcs/936.mspx)。
+
+
+  * [Unicode Hanzi 统一码汉字](http://www.unicode.org/versions/Unicode5.0.0/cjkcharts.html)。
+  * [统一码其他语言的编码表](http://www.unicode.org/charts/)。
